@@ -1,0 +1,139 @@
+﻿.welcome-full-width-con-right {
+    float: left;
+    width: 75%;
+}
+#contact input[type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="password"]:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+.footer-link-col1 {
+    width: 18%;
+}
+
+.footer-link-col2 {
+    width: 25%;
+}
+
+.footer-link-col3 {
+    width: 16%;
+}
+
+.footer-link-col4 {
+    width: 16%;
+}
+
+.footer-link-col5 {
+    width: 25%;
+}
+.errorValidation {
+    color:red;
+    font-Family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 12px;    
+}
+
+.Modal {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  overflow: auto;
+  transition: all 0.3s linear;
+}
+
+.Modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 550px;
+  /*height: 450px;*/
+}
+
+.ModalOpen { overflow: hidden; }
+
+.is-hidden { display: none; }
+
+.is-visuallyHidden { opacity: 0; }
+
+.top-right-download-bg{float:left;}
+.top-right-download-bg ul{margin:0; padding:0; float:right;}
+.top-right-download-bg ul li{list-style:none; float:left; margin-right:10px; margin-top: 10px;width:100%;border-bottom:solid 1px red; padding-bottom:10px;}
+.top-right-download-bg ul li a{background:#bd360d; float:right; text-decoration:none; padding:5px 20px; font-size:14px;  color:#fff; font-Family: 'robotomedium'; border-radius:32px;}
+.top-right-download-bg ul li a:hover{background:#f58220; color:#fff;}
+a:hover {
+    text-decoration: none;
+}
+#customers {
+  font-family: "robotomedium";
+  /*border-collapse: collapse;*/
+  width: 100%;
+}
+table.gridtable {
+	font-family: inherit;font-size: 13px;
+	color:#333333;
+	border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table.gridtable th {
+	border: 1px solid #3c3737;
+     padding: 8px;
+	
+}
+table.gridtable td {
+    border: 1px solid #3c3737;
+    padding: 8px;
+	
+}
+.span.first_title {
+  margin-top: 20px;
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #221461;
+}
+
+#customers td, #customers th {
+  border: 1px solid #464545;
+  padding: 8px;
+}
+.gfg { 
+                border-collapse:separate; 
+                border-spacing:0 15px; 
+            }
+@media only screen and (max-width: 767px) {
+.tables {
+
+  overflow-x:scroll;
+}
+    .top-right-download-bg ul li {
+            width: 50%;
+    }
+
+
+
+}
+
+
+ 
+  
+
